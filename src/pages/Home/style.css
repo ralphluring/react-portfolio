@@ -1,0 +1,37 @@
+.home-container{
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.button-style{
+    border: 1px solid;
+    background: violet;
+    box-sizing: unset;
+    padding: 5px;
+    font-family: inherit;
+    margin: 0px 10px;
+}
+
+.clock-container{
+    align-self: self-end;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.links p {
+  margin: 5px 0px;
+}
+
+.links a{
+    text-decoration: underline;
+}
+
+
+

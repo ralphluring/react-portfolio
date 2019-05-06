@@ -1,0 +1,34 @@
+.clock-container{
+    width: 240px;
+    height: 220px;
+
+}
+
+.seconds-container{
+    width:100%;
+    height: 25px;
+}
+
+.minutes-container{
+    width:100%;
+    height: 25px;
+}
+
+.hours-container{
+    width:100%;
+    height: 25px;
+}
+.day-container{
+    width:100%;
+    height: 25px;
+}
+
+.month-container{
+    width:100%;
+    height: 25px;
+}
+
+.year-container{
+    width:100%;
+    height: 25px;
+}
