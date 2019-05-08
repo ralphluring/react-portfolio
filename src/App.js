@@ -35,8 +35,8 @@ class App extends Component{
         <div className="App">
           <Nav/>
           <Switch>
-            <Route path="/" render={(props) => <Home {...props} time={this.state.time}/>}/>
-            <Route exact path="/stuff" component={Stuff}/>
+            <Route exact path="/" render={(props) => <Home {...props} time={this.state.time}/>}/>
+            <Route exact path="/stuff" render={(props) => <Stuff {...props} time={this.state.time}/>}/>
             <Route component={NoMatch} />
           </Switch>
         </div>
