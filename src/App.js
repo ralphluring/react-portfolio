@@ -34,11 +34,8 @@ class App extends Component{
       <Router>
         <div className="App">
           <Nav/>
-          {/* <h1>{this.state.time.getSeconds()}</h1> */}
           <Switch>
-            <Route exact path="/"
-            render={(props) => <Home {...props} time={this.state.time} />}
-             />
+            <Route path="/" component={Home} render={(props) => <Home {...props} time={this.state.time}/>}/>
             <Route exact path="/stuff" component={Stuff}/>
             <Route component={NoMatch} />
           </Switch>
